@@ -48,7 +48,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="dark"
                 icon="weekend"
-                title="Bookings"
+                title="Total Vehicles "
                 count={281}
                 percentage={{
                   color: "success",
@@ -62,7 +62,7 @@ function Dashboard() {
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
                 icon="leaderboard"
-                title="Today's Users"
+                title="Average speed"
                 count="2,300"
                 percentage={{
                   color: "success",
@@ -77,7 +77,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="success"
                 icon="store"
-                title="Revenue"
+                title="Max Speed"
                 count="34k"
                 percentage={{
                   color: "success",
@@ -92,7 +92,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="primary"
                 icon="person_add"
-                title="Followers"
+                title="Total vehicles exceeding speed limit"
                 count="+91"
                 percentage={{
                   color: "success",
@@ -109,7 +109,7 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsBarChart
                   color="info"
-                  title="website views"
+                  title="Average Speed"
                   description="Last Campaign Performance"
                   date="campaign sent 2 days ago"
                   chart={reportsBarChartData}
@@ -120,7 +120,7 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="success"
-                  title="daily sales"
+                  title="Total Vehicles exceeding speed limit"
                   description={
                     <>
                       (<strong>+15%</strong>) increase in today sales.
@@ -135,7 +135,7 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="dark"
-                  title="completed tasks"
+                  title="Total Vehicles"
                   description="Last Campaign Performance"
                   date="just updated"
                   chart={tasks}
